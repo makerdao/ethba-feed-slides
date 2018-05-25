@@ -29,6 +29,14 @@ import makerLogo from './images/maker logo.png'
 import maker from './images/maker logo with text.png'
 import cdp1 from './images/cdp1.png'
 import stableFund from './images/maker and stable fund.png'
+
+import bite from './images/bite.png'
+import draw from './images/draw.png'
+import joinexit from './images/joinexit.png'
+import lockfree from './images/lockfree.png'
+import openshut from './images/openshut.png'
+import wipe from './images/wipe.png'
+
 // Import theme
 import createTheme from 'spectacle/lib/themes/default'
 
@@ -188,7 +196,26 @@ export default class Presentation extends React.Component {
             <ListItem>Open / Shut</ListItem>
             <ListItem>Lock / Free</ListItem>
             <ListItem>Draw / Wipe</ListItem>
+            <ListItem>Bite</ListItem>
           </List>
+        </Slide>
+        <Slide>
+          <Image src={joinexit} />
+        </Slide>
+        <Slide>
+          <Image src={openshut} />
+        </Slide>
+        <Slide>
+          <Image src={lockfree} />
+        </Slide>
+        <Slide>
+          <Image src={draw} />
+        </Slide>
+        <Slide>
+          <Image src={wipe} />
+        </Slide>
+        <Slide>
+          <Image src={bite} />
         </Slide>
         <Slide>
           <Image src={daiLogo} height="250px" />
