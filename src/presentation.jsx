@@ -287,6 +287,25 @@ export default class Presentation extends React.Component {
           <Image src={stableFund} />
         </Slide>
         <Slide>
+          <Heading size={1} lineHeight={1.5} textColor="secondary" fit>
+            Bounties!
+          </Heading>
+          <Text textColor="tertiary" bold>
+            Up to 5 MKR will be awarded to projects using Dai and/or CDPs
+          </Text>
+        </Slide>
+        <Slide>
+          <Heading size={2} lineHeight={1.3} textColor="secondary" fit>
+            Hackathon Project Ideas
+          </Heading>
+          <List>
+            <ListItem>Design an interface that distills out the complexity of the dai frontend to empower a specific use case of the platform.</ListItem>
+            <ListItem>Create a frontend for decentralized ETH exposure using CDP’s.</ListItem>
+            <ListItem>Build a slick wallet for sending and storing Dai.</ListItem>
+            <ListItem>Build a frontend for loan mechanics.</ListItem>
+          </List>
+        </Slide>
+        <Slide>
           <Heading size={1} lineHeight={1.5} textColor="secondary">
             Thank you :)
           </Heading>
