@@ -200,6 +200,15 @@ export default class Presentation extends React.Component {
           </List>
         </Slide>
         <Slide>
+          <Image src={daiLogo} height="200px" />
+          <Heading size={2} lineHeight={1.3} textColor="secondary" fit>
+            github.com/makerdao/sai
+          </Heading>
+          <Heading size={3} lineHeight={1.8} textColor="tertiary">
+            src/tub.sol
+          </Heading>
+        </Slide>
+        <Slide>
           <Image src={joinexit} />
         </Slide>
         <Slide>
@@ -249,7 +258,7 @@ export default class Presentation extends React.Component {
             Buenos Aires office
           </Heading>
           <Heading size={1} lineHeight={1.5} textColor="tertiary">
-            coming soon!
+            in the coming months
           </Heading>
         </Slide>
         <Slide>

@@ -81,6 +81,11 @@ class Slide1 extends Component {
             {this.state.txs} txs
           </Text>
         </Appear>
+        <Appear>
+          <Text textColor="secondary">
+            github.com/makerdao/ethba
+          </Text>
+        </Appear>
       </div>
     )
   }
