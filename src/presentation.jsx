@@ -28,6 +28,7 @@ import daiLogo from './images/dai logo.png'
 import makerLogo from './images/maker logo.png'
 import maker from './images/maker logo with text.png'
 import cdp1 from './images/cdp1.png'
+import stableFund from './images/maker and stable fund.png'
 // Import theme
 import createTheme from 'spectacle/lib/themes/default'
 
@@ -241,12 +242,30 @@ export default class Presentation extends React.Component {
           </Link>
         </Slide>
         <Slide>
+          <Heading size={1} lineHeight={1.5} textColor="secondary" fit>
+            The Stable Fund
+          </Heading>
+          <Text textColor="tertiary" bold>
+            L4, creators of ETHGlobal
+          </Text>
+          <Image src={stableFund} />
+        </Slide>
+        <Slide>
           <Heading size={1} lineHeight={1.5} textColor="secondary">
             Thank you :)
           </Heading>
           <Heading size={1} lineHeight={1.5} textColor="tertiary">
             Questions?
           </Heading>
+          <Text textColor="secondary" bold>
+            mariano@makerdao.com
+          </Text>
+          <Text textColor="secondary" bold>
+            Twitter: @nanexcool
+          </Text>
+          <Text textColor="secondary" bold>
+            chat.makerdao.com: @mariano.conti
+          </Text>
         </Slide>
       </Deck>
     );
