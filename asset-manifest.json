@@ -1,10 +1,16 @@
 {
   "main.css": "static/css/main.653da357.css",
   "main.css.map": "static/css/main.653da357.css.map",
-  "main.js": "static/js/main.4b250537.js",
-  "main.js.map": "static/js/main.4b250537.js.map",
+  "main.js": "static/js/main.4bc8a0ea.js",
+  "main.js.map": "static/js/main.4bc8a0ea.js.map",
+  "static/media/bite.png": "static/media/bite.50728da2.png",
   "static/media/cdp1.png": "static/media/cdp1.3509c959.png",
   "static/media/dai logo.png": "static/media/dai logo.54c1234d.png",
+  "static/media/draw.png": "static/media/draw.ad508df4.png",
+  "static/media/joinexit.png": "static/media/joinexit.2ae494eb.png",
+  "static/media/lockfree.png": "static/media/lockfree.550537b8.png",
   "static/media/maker and stable fund.png": "static/media/maker and stable fund.e74ffb2b.png",
-  "static/media/maker logo with text.png": "static/media/maker logo with text.3301940e.png"
+  "static/media/maker logo with text.png": "static/media/maker logo with text.3301940e.png",
+  "static/media/openshut.png": "static/media/openshut.a85e3218.png",
+  "static/media/wipe.png": "static/media/wipe.b8c6d738.png"
 }
